@@ -34,7 +34,7 @@ PLAYMSG_BUTTONS = InlineKeyboardMarkup(
                 InlineKeyboardButton("ꜱᴜᴘᴘᴏʀᴛ ⚡", url=f"https://t.me/Shayri_Music_Lovers"),
                 InlineKeyboardButton("☑️ ᴄʜᴀɴɴᴇʟ", url=f"https://t.me/SadStatusVidio"),
             ],
-            [InlineKeyboardButton("🗑 ᴄʟᴏsᴇ", callback_data="close")],
+            [InlineKeyboardButton("★彡[ᴄᴀɴᴅʏ]彡★", url=f"https://t.me/candy_626")],
         ]
 )
 
@@ -172,7 +172,7 @@ async def nplay(_, message: Message):
         thumb = ZAID_QUE
         position = await queues.put(message.chat.id, file=file)
         MENTMEH = message.from_user.mention()
-        await lel.delete()
+        await lel.delete()l
         await message.reply_photo(thumb, caption=f"**Your Song Queued at position** `{position}`! \n**Requested by: {MENTMEH}**", reply_markup=PLAYMSG_BUTTONS)
     else:
         thumb = THUMB_URL
