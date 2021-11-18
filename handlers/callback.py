@@ -54,7 +54,7 @@ async def startcb(_, query: CallbackQuery):
     await query.edit_message_text(
         f"""<b>Hi {query.message.from_user.mention} 😉️!</b>
 
-I'm The Alisha Candy Bot! A Powerful Bot to Play Music in Your Group Voice Chat 😇!
+I'm The  Candy Bot! A Powerful Bot to Play Music in Your Group Voice Chat 😇!
 
 Also I have more features! Please hit on **/help** to see them 😘!
 
