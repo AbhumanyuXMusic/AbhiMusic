@@ -63,7 +63,7 @@ async def ubkickme(_, message: Message):
 async def ubalive(_, message: Message):
   alive_msg = await message.edit_text("`Processing...`")
   alive_pic = "https://telegra.ph/file/f8a9af2ad589946130da1.jpg"
-  await message.reply_photo(alive_pic, caption=f"**☑️ Zaid Music Userbot is Alive 🌀** \n\n**🤖 Version** \n ↳**Bot Version:** `{z_version}` \n ↳**Userbot Version:** `{zaidub_version}` \n\n**🐬 Info**\n ↳**Music Bot:** @{BOT_USERNAME} \n ↳**Owner:** [Click Here](tg://user?id={BOT_OWNER})")
+  await message.reply_photo(alive_pic, caption=f"**☑️ Candy Music Userbot is Alive 🌀** \n\n**🤖 Version** \n ↳**Bot Version:** `{z_version}` \n ↳**Userbot Version:** `{zaidub_version}` \n\n**🐬 Info**\n ↳**Music Bot:** @{BOT_USERNAME} \n ↳**Owner:** [Click Here](tg://user?id={BOT_OWNER})")
   await alive_msg.delete()
 
 
@@ -91,7 +91,7 @@ async def getlogs(client: ZAIDUB, message: Message, app_):
       pmchat = await ZAIDUB.create_group(f"Userbot's PM Logs", BOT_OWNER)
       chat_id = pmchat.id
       await ZAIDUB.set_chat_photo(chat_id=chat_id, photo=chat_pic)
-      await logmsg.edit(f"`Successfully Finished Step 1, To Enable This Feature Please Check Your Log Group That Created Now!!` \n\n ~ **@SUPERIOR_BOTS**")
+      await logmsg.edit(f"`Successfully Finished Step 1, To Enable This Feature Please Check Your Log Group That Created Now!!` \n\n ~ **@AlishaSupport**")
       await client.send_message(chat_id, f"**Welcome to @{(await ZAIDUB.get_me()).username}'s PM Log Group!** \nThis Chat will Contain All PM Messages Of **@{(await ZAIDUB.get_me()).username}** ! \n\n\n`/setvar PM_LOG_CHAT_ID {chat_id}` \n\n ✪ **Please Copy and Send Above Command To Your @{BOT_USERNAME} Now**!")
     except Exception as lol:
       await logmsg.edit(f"`Can't Enable This Feature!, Something Wrong Happend!` \n\n**Error:** `{lol}`")
