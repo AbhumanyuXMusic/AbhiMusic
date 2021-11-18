@@ -50,11 +50,11 @@ PLAYMSG_BUTTONS = InlineKeyboardMarkup(
 
                 InlineKeyboardButton("ꜱᴜᴘᴘᴏʀᴛ ⚡", url=f"https://t.me/Shayri_Music_Lovers"),
 
-                InlineKeyboardButton("☑️ ᴄʜᴀɴɴᴇʟ", url=f"https://t.me/SadStatusVidio"),
+                InlineKeyboardButton("⚪ ᴄʜᴀɴɴᴇʟ", url=f"https://t.me/SadStatusVidio"),
 
             ],
 
-            [InlineKeyboardButton("★彡[ᴏᴡɴᴇʀ]彡★", f"https://t.me/candy_626")],
+            [InlineKeyboardButton("💞 ᴏᴡɴᴇʀ 💞", url=f"https://t.me/candy_626")],
 
         ]
 
@@ -302,4 +302,4 @@ async def nplay(_, message: Message):
 
         await lel.delete()
 
-        await message.reply_photo(thumb, caption="**🍬ᴘʟᴀʏɪɴɢ...** \n**ᴜꜱᴇʀ ʙʏ: {}**".format(message.from_user.mention()), reply_markup=PLAYMSG_BUTTONS)
+        await message.reply_photo(thumb, caption="**🍬🍭🍡ᴘʟᴀʏɪɴɢ...** \n**ᴜꜱᴇʀ ʙʏ: {}**".format(message.from_user.mention()), reply_markup=PLAYMSG_BUTTONS)
