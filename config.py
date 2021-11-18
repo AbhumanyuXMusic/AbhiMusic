@@ -13,7 +13,7 @@ BOT_TOKEN = getenv("BOT_TOKEN")
 API_ID = int(getenv("API_ID"))
 API_HASH = getenv("API_HASH")
 
-DURATION_LIMIT = int(getenv("DURATION_LIMIT", "60"))
+DURATION_LIMIT = int(getenv("DURATION_LIMIT", "300"))
 
 COMMAND_PREFIXES = list(getenv("COMMAND_PREFIXES", "/ . !").split())
 
@@ -24,9 +24,9 @@ DATABASE_URL = os.environ.get("DATABASE_URL") #mongo database url for more info 
 LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL")) # Your Log Channel! Make a private channel and get it's ID
 BROADCAST_AS_COPY = bool(os.environ.get("BROADCAST_AS_COPY", False)) # If you need to broadcast messages as a copy or Forwarded Message
 THUMB_URL = os.environ.get("THUMB_URL", "https://telegra.ph/file/8628c642a266a22effd8c.png")
-ZAID_QUE = os.environ.get("ZAID_QUE", "https://telegra.ph/file/c16cbc1b51444436477c6.jpg")
-UPDATES_CHANNEL = os.environ.get("UPDATES_CHANNEL", "SUPERIOR_BOTS")
-ZAID_SUPPORT = os.environ.get("ZAID_SUPPORT", "SUPERIOR_SUPPORT")
+ZAID_QUE = os.environ.get("CANDY_QUE", "https://telegra.ph/file/9ba56a48b6a4c379c2c26.jpg")
+UPDATES_CHANNEL = os.environ.get("UPDATES_CHANNEL", "SadStatusVidio")
+ZAID_SUPPORT = os.environ.get("CANDY_SUPPORT", "Shayri_Music_Lovers")
 
 # SOON ADDING 
 ARQ_API_KEY = getenv("ARQ_API_KEY")
