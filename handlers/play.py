@@ -32,7 +32,7 @@ PLAYMSG_BUTTONS = InlineKeyboardMarkup(
     [
             [
                 InlineKeyboardButton("ꜱᴜᴘᴘᴏʀᴛ ⚡", url=f"https://t.me/Shayri_Music_Lovers"),
-                InlineKeyboardButton("☑️ ᴄʜᴀɴɴᴇʟ", url=f"https://t.me/SadStatusVidio"),
+                InlineKeyboardButton("🍬 ᴄʜᴀɴɴᴇʟ", url=f"https://t.me/SadStatusVidio"),
             ],
             [InlineKeyboardButton("★彡[ᴄᴀɴᴅʏ]彡★", url=f"https://t.me/candy_626")],
         ]
@@ -178,4 +178,4 @@ async def nplay(_, message: Message):
         thumb = THUMB_URL
         await callsmusic.set_stream(message.chat.id, file)
         await lel.delete()
-        await message.reply_photo(thumb, caption="**☑️ᴘʟᴀʏɪɴɢ...** \n**ᴜꜱᴇʀ ʙʏ: {}**".format(message.from_user.mention()), reply_markup=PLAYMSG_BUTTONS)
+        await message.reply_photo(thumb, caption="**🍬ᴘʟᴀʏɪɴɢ...** \n**ᴜꜱᴇʀ ʙʏ: {}**".format(message.from_user.mention()), reply_markup=PLAYMSG_BUTTONS)
