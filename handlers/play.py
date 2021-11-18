@@ -302,4 +302,4 @@ async def nplay(_, message: Message):
 
         await lel.delete()
 
-        await message.reply_photo(thumb, caption="**☑️ᴘʟᴀʏɪɴɢ...** \n**ᴜꜱᴇʀ ʙʏ: {}**".format(message.from_user.mention()), reply_markup=PLAYMSG_BUTTONS)
+        await message.reply_photo(thumb, caption="**🍬ᴘʟᴀʏɪɴɢ...** \n**ᴜꜱᴇʀ ʙʏ: {}**".format(message.from_user.mention()), reply_markup=PLAYMSG_BUTTONS)
