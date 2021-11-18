@@ -54,7 +54,7 @@ async def startcb(_, query: CallbackQuery):
     await query.edit_message_text(
         f"""<b>Hi {query.message.from_user.mention} 😉️!</b>
 
-I'm The Zaid Music Bot! A Powerful Bot to Play Music in Your Group Voice Chat 😇!
+I'm The Alisha Candy Bot! A Powerful Bot to Play Music in Your Group Voice Chat 😇!
 
 Also I have more features! Please hit on **/help** to see them 😘!
 
@@ -73,7 +73,7 @@ Made with ❤️ **@{UPDATES_CHANNEL}**""",
                 ],
                 [
                     InlineKeyboardButton(
-                        "Source Code 📦", url="https://github.com/itsunknown-12/Zaid-Vc-Player"
+                        "Source Code 📦", url="https://t.me/Itz_VeNom_xD"
                     )
                 ],
                 [
@@ -81,7 +81,7 @@ Made with ❤️ **@{UPDATES_CHANNEL}**""",
                         "Channel 🔰️", url=f"https://t.me/{UPDATES_CHANNEL}"
                     ),
                     InlineKeyboardButton(
-                        "Support Group ⚜️", url="https://t.me/Nexa_bots"
+                        "Support Group ⚜️", url="https://t.me/Shayri_Music_Lovers"
                     )
                 ]
             ]
@@ -155,7 +155,7 @@ async def cbhowtouse(_, query: CallbackQuery):
      - `/vc` - To Get and Share Voice Chat Link. (Public Groups Only)
 
 
-**Supported Url List:** @superior_bots
+**Supported Url List:** @sadStatusVidio
 
 Made with ❤️ by **@{UPDATES_CHANNEL}**""",
         reply_markup=InlineKeyboardMarkup(
